@@ -7,5 +7,7 @@ defmodule MinedWeb.Router do
 
   scope "/api", MinedWeb do
     pipe_through :api
+
+    get "/health", HealthController, :show
   end
 end
