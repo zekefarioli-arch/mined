@@ -1,0 +1,30 @@
+# Elixir / Erlang
+_build/
+deps/
+*.ez
+erl_crash.dump
+.elixir_ls/
+.lexical/
+cover/
+doc/
+backend/priv/static/assets/
+
+# Node / frontend
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
